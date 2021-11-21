@@ -26,6 +26,13 @@ or (linux)
 ./main
 ```
 
+test the app either using curl or postman, the app is running on port `8080`,
+make sure no other service is running on this port
+
+```
+curl http://localhost:8080/v1/weather?city=sydney
+```
+
 ## Design Tradeoffs
 
 For ease of testing, `.env` is committed into the repo with a working key.
